@@ -69,7 +69,7 @@ while True:
             if item_to_remove in ordered_items:
                 ordered_items.remove(item_to_remove)
                 order_total -= Dishes_list[item_to_remove]
-                print(f"Your item {item_to_remove} has been removed from your order")
+                print(f"Your item {item_to_remove} has been removed from your order list")
             else:
                 print(f"Item {item_to_remove} is not in your order.")
         elif action != 'add':
